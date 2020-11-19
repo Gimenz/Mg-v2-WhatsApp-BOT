@@ -26,6 +26,9 @@ Install the dependencies:
 #### For Bot Nulis Support **(Important)**
 - [ImageMagick](https://bit.ly/3faAi8l)
 - Checklist like this
+<p align="center">
+<img src="https://raw.githubusercontent.com/Gimenz/Mg-v2-WhatsApp-BOT/master/.github/imagemagic.png"/>
+</p>
 
 #### For GIF Sticker Support **(Important)**
 - [FFMPEG](https://ffmpeg.org/download.html)
