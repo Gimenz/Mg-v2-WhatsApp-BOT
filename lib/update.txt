@@ -1,0 +1,32 @@
+_*ᴜᴘᴅᴀᴛᴇ ᴍɢ-ʙᴏᴛ*_
+Status Bot : *%state*
+
+17 - 11 - 2020
+[+] Joox downloader
+[+] Template menu baru agar tidak membosankan
+[+] dan beberapa fitur baru, cek sendiri di #menu
+
+18 - 11 - 2020
+[+] Filter *Anti Badword*
+=>  Member grup yang mengirim pesan mengandung badword [kata kasar] lebih dari 10x akan di kick otomatis oleh bot
+=>  Fitur ini dapat di aktifkan atau nonaktifkan
+=>  #filter on / off
+[+] Filter *Anti Link group*
+=>  Member grup yang mengirim pesan mengandung link chat group akan di kick otomatis oleh bot TANPA PERINGATAN!
+=>  Fitur ini dapat di aktifkan atau nonaktifkan
+=>  #antilink on / off
+[+] Filter *Anti Spam Sticker*
+=>  Member grup yang spam sticker sebanyak 10x di group akan di kick otomatis oleh bot TANPA PERINGATAN!
+=>  Fitur ini dapat di aktifkan atau nonaktifkan
+=>  #antisticker on / off
+[+] Setiap admin group berwenang untuk mereset data member yang telah spam sticker atau badword
+=>  #resetbadword [NO WA / @member] === (RESET DATA MEMBER YANG SPAM BADWORD) 
+=>  #resetsticker [NO WA / @member] === (RESET DATA MEMBER YANG SPAM STICKER) 
+
+[Bagi yang ingin registrasi ulang, karena data salah, silahkan donasi seikhlasnya. kirim #donasi untuk melihat info donasi]
+
+Bila menemukan bugs/bot error, lapor ke admin bot.
+cara lapor mudah, kirim aja #bug [deskripsi bug]
+
+Telegram Channel: t.me/info_mg 
+Group WA Mg-BoT : minta ke admin #min minta link grup

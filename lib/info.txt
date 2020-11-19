@@ -1,0 +1,19 @@
+_*ɪɴꜰᴏʀᴍᴀꜱɪ ᴍɢ-ʙᴏᴛ*_
+ꜱᴛᴀᴛᴜꜱ ʙᴏᴛ : *%state*
+
+Tolong di BACA dan PAHAMI Penjelasan penggunaan sebelum menggunakan BoT >.<
+
+Penjelasan :
+◉ Semua perintah/command tidak perlu menggunakan tanda *[* dan *]*
+◉ *Yang di maksud dengan reply/quote pesan, simple nya aja [geser pesan ke kanan]*
+◉ Untuk fitur cuaca, agar lebih akurat dan lokasi tidak salah, kamu bisa share lokasi mu, kemudian reply dengan caption #cuaca
+◉ Untuk #memestiker jangan sekali-kali *menggunakan emoticon*, karena sistem tidak dapat memproses
+=> Kalau ingin text atas/bawah kosong, gunakan tanda - Contoh = #memestiker - | text bawah
+◉ #emo => emoji *tidak boleh lebih dari 1 emoji*, karena sistem hanya dapat memproses SATU emoji saja
+=>  Contoh = #emo 😁
+◉ Fitur #tts (Text To Speech) dan #tr (Translate) bisa juga digunakan dengan cara reply/quote pesan yang akan di Translate ataupun TTS
+◉ Fitur #profile, yang di maksud NO WA adalah nomor wa dengan country code. 
+=>  Contoh = #profile 6285236189411
+
+Telegram Channel: t.me/info_mg 
+Group WA Mg-BoT : minta ke admin #min minta link grup
