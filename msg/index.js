@@ -14,7 +14,7 @@ const { uploadImages } = require('../util/fetcher')
 const { msgFilter, color, processTime, isUrl } = require('../util/msgFilter')
 const moment = require('moment-timezone');
 moment.tz.setDefault('Asia/Jakarta').locale('id')
-const scdl = require('soundcloud-downloader')
+const scdl = require('soundcloud-downloader').default
 const CLIENT_ID = 'Cari sendiri di soundcloud.com! kalo bingung kontak saya via wa :D'
 const brainly = require('brainly-scraper');
 const botset = JSON.parse(fs.readFileSync('./lib/helper/bot.json'))
