@@ -80,14 +80,27 @@ module.exports = msgHandler = async (client, message) => {
                 if(i.id === id){
                     if (i.msg >= 12) {
                         found === true 
-                        client.reply(from, '*[ANTI STICKER SPAM]*\nKamu telah SPAM STICKER di grup, kamu akan di kick otomatis oleh bot', id).then(() => {
+                        client.reply(from, '*[ANTI STICKER SPAM]*\nKamu telah SPAM STICKER di grup, kamu akan di kick otomatis oleh bot', message.id).then(() => {
                             client.removeParticipant(groupId, id)
+                        }).then(() => {
+                            const cus = id
+                            var found = false
+                            Object.keys(stickerspam).forEach((i) => {
+                                if(stickerspam[i].id == cus){
+                                    found = i
+                                }
+                            })
+                            if (found !== false) {
+                                stickerspam[found].msg = 1;
+                                const result = '✅ DB Sticker Spam has been reset'
+                                console.log(stickerspam[found])
+                                fs.writeFileSync('./lib/helper/stickerspam.json',JSON.stringify(stickerspam));
+                                client.sendText(from, result)
+                            } else {
+                                    client.reply(from, `${monospace(`Di database ngga ada nomer itu dik`)}`, id)
+                            }
                         })
                         return true;
-                    }else if(i.msg >= 7){
-                        found === true
-                        client.reply('*[ANTI STICKER SPAM]*\nKamu terdeteksi spam sticker!\nMohon tidak spam 5 sticker lagi atau nomor akan di kick oleh bot!', id)
-                        return true
                     }else{
                         found === true
                         return false;
@@ -123,8 +136,25 @@ module.exports = msgHandler = async (client, message) => {
                     let msg = i.msg
                     if (msg >= 12) {
                         kasar === true 
-                        client.reply(from, '*[ANTI-BADWORD]*\nKamu telah berkata kasar di grup lebih dari 10x, kamu akan di kick otomatis oleh bot!', id).then(() => {
+                        client.reply(from, '*[ANTI-BADWORD]*\nKamu telah berkata kasar di grup lebih dari 10x, kamu akan di kick otomatis oleh bot!', message.id).then(() => {
                             client.removeParticipant(groupId, id)
+                        }).then(() => {
+                            const cus = id
+                            var found = false
+                            Object.keys(msgBadword).forEach((i) => {
+                                if(msgBadword[i].id == cus){
+                                    found = i
+                                }
+                            })
+                            if (found !== false) {
+                                msgBadword[found].msg = 1;
+                                const result = '✅ DB Badword Spam has been reset'
+                                console.log(msgBadword[found])
+                                fs.writeFileSync('./lib/helper/msgBadword.json',JSON.stringify(msgBadword));
+                                client.sendText(from, result)
+                            } else {
+                                    client.reply(from, `${monospace(`Di database ngga ada nomer itu dik`)}`, id)
+                            }
                         })
                         return true;
                     }else{
